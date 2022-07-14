@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 switch($_SERVER['REQUEST_METHOD']){
     case "POST":
         echo "post";
@@ -10,7 +11,7 @@ switch($_SERVER['REQUEST_METHOD']){
         echo "delete";
         break;
     case 'GET':
-        echo "break";
+        echo "this is a get ";
         break;
 }
 
