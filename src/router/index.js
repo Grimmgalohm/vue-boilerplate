@@ -23,6 +23,13 @@ const routes = [
     component: function(){
       return import('../views/WebChat.vue')
     }
+  },
+  {
+    path: '/elements-mirror',
+    name: 'elements-mirror',
+    component: function(){
+      return import('../views/elements-mirror.vue')
+    }
   }
 ]
 
